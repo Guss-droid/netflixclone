@@ -20,8 +20,11 @@ I did him static
 
 ## Page home
 
-![Page home](https://github.com/Guss-droid/netflixclone/tree/main/assets/pageHome.png)
+![Page home](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageHome.png)
 
 ## Dashboard
 
-![Dashboard](https://github.com/Guss-droid/netflixclone/tree/main/assets/pageDash.png)
+![Dashboard](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageDash.png)
+![Dashboard 1](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageDash1.png)
+![List origin](https://github.com/Guss-droid/netflixclone/blob/main/assets/origin.png)
+![Footer](https://github.com/Guss-droid/netflixclone/blob/main/assets/footer.png)
