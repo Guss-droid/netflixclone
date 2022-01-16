@@ -20,5 +20,8 @@ I did him static
 
 ## Page home
 
-![Page home](https://github.com/Guss-droid/netflixclone/assets/pageHome.png)
-![Page home 2](https://github.com/Guss-droid/worldtrip/blob/continents/assets/pageHome2.png)
+![Page home](https://github.com/Guss-droid/netflixclone/tree/main/assets/pageHome.png)
+
+## Dashboard
+
+![Dashboard](https://github.com/Guss-droid/netflixclone/tree/main/assets/pageDash.png)
