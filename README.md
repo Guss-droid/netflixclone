@@ -8,6 +8,8 @@ I did it over the weekend and it was the satisfying complete him <br/>
 He was training for me using chakra and nextjs
 I did him static
 
+<strong>Made by: Gustavo Ré</strong>
+
 ### Challenges 🔨
 
 - Use Chakra-ui ✔
