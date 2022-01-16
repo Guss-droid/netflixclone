@@ -1,14 +1,14 @@
-<h1 align="center">Netflix clone</h1>
+<h1 align="center">Netflix clone 📺</h1>
 
 This project was a challenge for me cloning interface netflix is so hard, but I did
 
-## About this
+## About this 💭
 
 I did it over the weekend and it was the satisfying complete him <br/>
 He was training for me using chakra and nextjs
 I did him static
 
-### Challenges
+### Challenges 🔨
 
 - Use Chakra-ui ✔
 - Use NextJs ✔
@@ -16,15 +16,23 @@ I did him static
 - Complte interface ✔
 - Progress Bar ✔
 
-<h1 align="center">Layout</h1>
+<h1 align="center">Layout 💻</h1>
 
-## Page home
+## Page home 🏠
 
 ![Page home](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageHome.png)
 
-## Dashboard
+## Dashboard 🌱
 
 ![Dashboard](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageDash.png)
 ![Dashboard 1](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageDash1.png)
 ![List origin](https://github.com/Guss-droid/netflixclone/blob/main/assets/origin.png)
 ![Footer](https://github.com/Guss-droid/netflixclone/blob/main/assets/footer.png)
+
+<h1 align="center">Libs 📕 </h1>
+
+- NextJs
+- Typescript
+- Chakra-Ui
+- Sass
+- React-icons
