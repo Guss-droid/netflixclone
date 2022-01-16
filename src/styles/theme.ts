@@ -9,7 +9,7 @@ export const theme = extendTheme({
       "500": "#6D6D6EB3",
       "400": "#E5E5E5",
     },
-    red: "#B9090B"
+    netflix: "#B9090B"
   },
   fonts: {
     heading: 'Open Sans',
