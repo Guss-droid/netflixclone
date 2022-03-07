@@ -33,7 +33,7 @@ export function BannerImg() {
           <InfoImg />
           :
           <>
-            <Flex align="center" justify="center" w="100%" h="220vh" mt="auto">
+            <Flex align="center" justify="center" w="100%" h="220vh" mt="80vh">
               <InfoImgMobile />
             </Flex>
           </>

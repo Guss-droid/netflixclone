@@ -28,8 +28,8 @@ export function Footer() {
           h="10vh"
           justify="center"
           align="center"
-          mt="79vh"
-          position="fixed"
+          mt="129vh"
+          position="sticky"
         >
           <FooterIcon icon={AiOutlineHome} text="Home" isActive />
           <FooterIcon icon={RiSearchLine} text="Pesquisar" />
