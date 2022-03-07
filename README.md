@@ -41,8 +41,10 @@ I did him static
 
 ## Dashboard Mobile 🌱
 <div flexDirection="column">
+  
 ![Dashboard Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/dashMobile.PNG) 
 ![Footer Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/footerMobile.PNG)
+  
 </div>
   
 <h1 align="center">Libs 📕 </h1>
