@@ -6,12 +6,12 @@ interface ISliderContent {
   image: string;
 }
 
-export function PosterMovies({ icon, image,  }: ISliderContent) {
+export function PosterMovies({ icon, image, }: ISliderContent) {
   return (
     <Flex direction="column" align="center">
 
       <Flex
-        w="305px"
+        w={["155px", "155px", "305px"]}
         h="575"
         bgImage={image}
         bgRepeat="no-repeat"
@@ -20,6 +20,13 @@ export function PosterMovies({ icon, image,  }: ISliderContent) {
         justify="flex-end"
         ml="3"
         direction="row"
+        cursor="pointer"
+        _hover={{
+          transition: "transform .5s",
+          transform: "scale(1.2)",
+          msTransform: "scale(1.2)",
+          webkitTransform: "scale(1.2)",
+        }}
       >
         {icon && <Icon as={icon} fontSize="48" />}
       </Flex>

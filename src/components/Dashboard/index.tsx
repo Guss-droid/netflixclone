@@ -1,9 +1,17 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
-import { RiArrowRightSLine } from "react-icons/ri";
+import { Flex, Image, Text, useBreakpointValue } from "@chakra-ui/react";
+
 import { SliderMovies } from "../SliderMovies";
 import { PosterMovies } from "../SliderMovies/PosterMovies";
 
+import { RiArrowRightSLine } from "react-icons/ri";
+
 export function Dash() {
+
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true
+  })
+
   return (
     <Flex direction="column" px="20">
       <Text fontSize="26" fontWeight="500" my="5">
@@ -22,7 +30,6 @@ export function Dash() {
         />
       </Flex>
 
-
       <Text fontSize="26" fontWeight="500" my="5">
         Originais Netflix
       </Text>
@@ -34,14 +41,14 @@ export function Dash() {
         <PosterMovies image="/images/posterTribes.svg" icon={RiArrowRightSLine} />
       </Flex>
 
-
-
-      <Text fontSize="26" fontWeight="500" my="7">
-        Top 10 no Brasil
-      </Text>
-      <Image src="/images/top10Line.svg" />
-
-
+      {isWideVersion &&
+        <>
+          <Text fontSize="26" fontWeight="500" my="7">
+            Top 10 no Brasil
+          </Text>
+          <Image src="/images/top10Line.svg" />
+        </>
+      }
 
       <Text fontSize="26" fontWeight="500" my="5">
         Sua lista

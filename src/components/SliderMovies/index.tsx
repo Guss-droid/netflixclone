@@ -13,7 +13,7 @@ export function SliderMovies({ icon, image, isWatching = false, progress }: ISli
     <Flex direction="column" align="center">
 
       <Flex
-        w="305px"
+        w={["155px", "155px", "305px"]}
         h="171"
         bgImage={image}
         bgRepeat="no-repeat"
@@ -22,19 +22,28 @@ export function SliderMovies({ icon, image, isWatching = false, progress }: ISli
         justify="flex-end"
         ml="3"
         direction="row"
+        cursor="pointer"
+        _hover={{
+          transition: "transform .5s",
+          transform: "scale(1.2)",
+          msTransform: "scale(1.2)",
+          webkitTransform: "scale(1.2)",
+        }}
       >
         {icon && <Icon as={icon} fontSize="48" />}
       </Flex>
-      {isWatching && (
-        <Progress
-          value={progress}
-          bg="gray.800"
-          width="175px"
-          colorScheme="red"
-          height="3px"
-          mt="2"
-        />
-      )}
-    </Flex>
+      {
+        isWatching && (
+          <Progress
+            value={progress}
+            bg="gray.800"
+            width={["110px", "110px", "175px"]}
+            colorScheme="red"
+            height="3px"
+            mt="2"
+          />
+        )
+      }
+    </Flex >
   )
 }

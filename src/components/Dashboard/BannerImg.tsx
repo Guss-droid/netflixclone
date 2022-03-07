@@ -1,13 +1,24 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, useBreakpointValue } from "@chakra-ui/react";
 
 import { InfoImg } from "./InfoImg";
+import { InfoImgMobile } from "./InfoImgMobile";
 
 export function BannerImg() {
+
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true
+  })
+
   return (
     <Flex
       w="100%"
       h="810"
-      bgImage="/images/moviePoster.svg"
+      bgImage={[
+        "/images/moviePoster_mobile.svg",
+        "/images/moviePoster_mobile.svg",
+        "/images/moviePoster.svg"
+      ]}
       bgRepeat="no-repeat"
       bgSize="cover"
     >
@@ -18,7 +29,15 @@ export function BannerImg() {
         w="100%"
         px="20"
       >
-        <InfoImg />
+        {isWideVersion ?
+          <InfoImg />
+          :
+          <>
+            <Flex align="center" justify="center" w="100%" h="220vh" mt="auto">
+              <InfoImgMobile />
+            </Flex>
+          </>
+        }
       </Flex>
     </Flex>
   )

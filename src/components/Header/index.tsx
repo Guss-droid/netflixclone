@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Flex, useBreakpointValue } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 
 import { Logo } from "./Logo";
@@ -8,11 +8,16 @@ import { Profile } from "./Profile";
 export function Header() {
 
   const router = useRouter()
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  })
 
   return (
     <Flex
       mx="auto"
       align="center"
+      justify={["center", "center", "left"]}
       as="header"
       w="100%"
       maxW={1480}
@@ -23,9 +28,11 @@ export function Header() {
         <>
           <Logo />
           <MenuItens />
-          <Flex ml="auto" mt="2">
-            <Profile />
-          </Flex>
+          {isWideVersion &&
+            <Flex ml="auto" mt="2">
+              <Profile />
+            </Flex>
+          }
         </>
       }
     </Flex>

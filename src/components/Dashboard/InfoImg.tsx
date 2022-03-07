@@ -39,7 +39,7 @@ export function InfoImg() {
         <Text fontSize="26" fontWeight="500" my="5">
           Populares na Netflix
         </Text>
-        <Flex >
+        <Flex>
           <SliderMovies image="/images/newAmsterdan.svg" />
           <SliderMovies image="/images/modernFamily.svg" />
           <SliderMovies image="/images/fiftyMeters.svg" />
