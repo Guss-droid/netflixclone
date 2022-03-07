@@ -18,7 +18,9 @@ I did him static
 - Complte interface ✔
 - Progress Bar ✔
 
-<h1 align="center">Layout 💻</h1>
+<h1 align="center">Layout 📺</h1>
+
+<h3>Desktop 💻</h3>
 
 ## Page home 🏠
 
@@ -30,6 +32,16 @@ I did him static
 ![Dashboard 1](https://github.com/Guss-droid/netflixclone/blob/main/assets/pageDash1.png)
 ![List origin](https://github.com/Guss-droid/netflixclone/blob/main/assets/origin.png)
 ![Footer](https://github.com/Guss-droid/netflixclone/blob/main/assets/footer.png)
+
+<h3>Mobile 📱</h3>
+
+## Page Home Mobile 🏠
+
+![Page home Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/homeMobile.png)
+
+## Dashboard Mobile 🌱
+![Dashboard Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/dashboardMobile.png)
+![Footer Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/footerMobile.png)
 
 <h1 align="center">Libs 📕 </h1>
 
