@@ -37,11 +37,11 @@ I did him static
 
 ## Page Home Mobile 🏠
 
-![Page home Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/homeMobile.png)
+![Page home Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/homeMobile.PNG)
 
 ## Dashboard Mobile 🌱
-![Dashboard Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/dashboardMobile.png)
-![Footer Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/footerMobile.png)
+![Dashboard Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/dashMobile.PNG)
+![Footer Mobile](https://github.com/Guss-droid/netflixclone/blob/main/assets/footerMobile.PNG)
 
 <h1 align="center">Libs 📕 </h1>
 
