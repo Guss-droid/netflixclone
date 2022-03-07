@@ -19,9 +19,9 @@ export function MenuItens() {
         </Stack>
         :
         <Stack direction="row" spacing="16">
-          <Text>Séries</Text>
-          <Text>Filmes</Text>
-          <Text>Lista</Text>
+          <Text fontSize={["26", "22", "18"]}>Séries</Text>
+          <Text fontSize={["26", "22", "18"]}>Filmes</Text>
+          <Text fontSize={["26", "22", "18"]}>Lista</Text>
         </Stack>
       }
     </Flex>

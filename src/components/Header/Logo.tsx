@@ -14,7 +14,12 @@ export function Logo() {
         {isWideVersion ?
           <Image src="/logo.svg" alt="Logo" />
           :
-          <Image src="/logo_mobile.svg" alt="Logo" />
+          <Image
+            src="/logo_mobile.svg"
+            alt="Logo"
+            w="20"
+            h="20"
+          />
         }
       </Flex>
     </Link>

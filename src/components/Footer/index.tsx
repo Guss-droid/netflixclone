@@ -24,7 +24,7 @@ export function Footer() {
         <Flex
           as="footer"
           bg="gray.900"
-          w="200%"
+          w="210%"
           h="15vh"
           justify="center"
           align="center"

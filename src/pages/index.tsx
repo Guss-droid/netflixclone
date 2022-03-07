@@ -16,7 +16,13 @@ export default function Home() {
         <title>Home | Netflix</title>
       </Head>
 
-      <Flex w="100%" h="100vh" justify={["", "center", "center"]} align="center" direction="column">
+      <Flex
+        w="100%"
+        h="100vh"
+        justify={["center", "center", "center"]}
+        align="center"
+        direction="column"
+      >
         {isWideVersion &&
           <Heading
             mb="10"

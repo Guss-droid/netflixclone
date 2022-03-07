@@ -19,7 +19,7 @@ export function Header() {
       align="center"
       justify={["center", "center", "left"]}
       as="header"
-      w="100%"
+      w={["200%", "100%"]}
       maxW={1480}
       h="20"
       px="6"
