@@ -19,7 +19,7 @@ export default function Home() {
       <Flex
         w="100%"
         h="100vh"
-        justify={["center", "center", "center"]}
+        justify={["", "center", "center"]}
         align="center"
         direction="column"
       >
@@ -37,7 +37,7 @@ export default function Home() {
           width="100%"
           mx="auto"
           mt={[28, 20, 0]}
-          maxW={["400px", "500px", "1160px"]}
+          maxW={["500px", "600px", "1160px"]}
           gap={[1, 5]}
         >
 
