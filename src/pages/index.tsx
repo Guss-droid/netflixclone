@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
 
       <Flex
-        w="100%"
+        w={["210%", "100%"]}
         h="100vh"
         justify={["", "center", "center"]}
         align="center"

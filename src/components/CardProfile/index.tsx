@@ -8,7 +8,7 @@ interface ICardProfile extends LinkProps {
 
 export function CardProfile({ image, name, ...rest }: ICardProfile) {
   return (
-    <Link {...rest} >
+    <Link {...rest}>
       <Flex
         as="a"
         direction="column"
@@ -27,6 +27,7 @@ export function CardProfile({ image, name, ...rest }: ICardProfile) {
           width={["30", "30", "60"]}
           height={["110", "110", "200"]}
         />
+        
         <Text
           mt="5"
           color="gray.500"
