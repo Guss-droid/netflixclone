@@ -13,7 +13,7 @@ export function SliderMovies({ icon, image, isWatching = false, progress }: ISli
     <Flex direction="column" align="center">
 
       <Flex
-        w={["155px", "155px", "305px"]}
+        w={["182px", "182px", "305px"]}
         h="171"
         bgImage={image}
         bgRepeat="no-repeat"

@@ -12,7 +12,7 @@ export function BannerImg() {
 
   return (
     <Flex
-      w={["200%" ,"100%"]}
+      w={["200%", "100%"]}
       h="810"
       bgImage={[
         "/images/moviePoster_mobile.svg",

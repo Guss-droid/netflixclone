@@ -9,7 +9,7 @@ interface ICardProfile extends LinkProps {
 export function CardProfile({ image, name, ...rest }: ICardProfile) {
   return (
     <Link {...rest} >
-      <Flex as="a" direction="column" align="center">
+      <Flex as="a" direction="column" align="center" mb={["5", "5", 0]}>
        <Image
           src={image}
           alt="Profile img"

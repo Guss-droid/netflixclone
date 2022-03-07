@@ -7,17 +7,17 @@ interface IFooterIcon {
   isActive?: boolean;
 }
 
-export function FooterIcon({ icon, text, isActive = false}: IFooterIcon) {
+export function FooterIcon({ icon, text, isActive = false }: IFooterIcon) {
   return (
     <Flex
       as="button"
       flexDir="column"
       align="center"
-      fontWeight={isActive ? "800" : "normal"}
+      fontWeight={isActive ? "700" : "normal"}
       mx="10"
     >
-      <Icon as={icon} fontSize="24"/>
-      <Text fontSize="14">{text}</Text>
+      <Icon as={icon} fontSize={["36", "32", "24"]} />
+      <Text fontSize={["22", "18", "14"]}>{text}</Text>
     </Flex>
   )
 }

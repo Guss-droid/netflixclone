@@ -16,7 +16,7 @@ export default function Home() {
         <title>Home | Netflix</title>
       </Head>
 
-      <Flex w="100%" h="100vh" justify="center" align="center" direction="column">
+      <Flex w="100%" h="100vh" justify={["", "center", "center"]} align="center" direction="column">
         {isWideVersion &&
           <Heading
             mb="10"
@@ -31,7 +31,7 @@ export default function Home() {
           width="100%"
           mx="auto"
           mt={[28, 20, 0]}
-          maxW={["300px", "500px", "1160px"]}
+          maxW={["400px", "500px", "1160px"]}
           gap={[1, 5]}
         >
 

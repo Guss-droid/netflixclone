@@ -11,7 +11,7 @@ export function PosterMovies({ icon, image, }: ISliderContent) {
     <Flex direction="column" align="center">
 
       <Flex
-        w={["155px", "155px", "305px"]}
+        w={["182px", "182px", "305px"]}
         h="575"
         bgImage={image}
         bgRepeat="no-repeat"
